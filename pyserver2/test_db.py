@@ -1,12 +1,11 @@
 import pymysql
 
 try:
-    db = pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="rootpassword",
-        database="assignment_db",
-        port=3306
+    	host="db",
+	user="root",
+	password="root123",
+	database="assignment_db",
+	port=3306
     )
 
     print("Connected to MySQL!")
