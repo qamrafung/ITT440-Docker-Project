@@ -1,4 +1,7 @@
-import socket
+nano pyserver2/test_db.py
+
+
+nano pyserver2/test_db.pyimport socket
 import pymysql
 
 HOST = "0.0.0.0"
